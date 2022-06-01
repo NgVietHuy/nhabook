@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="trang_chu.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Lora:ital,wght@1,500&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    
+    <!-- head -->
+    <div class="head">
+        <div class="cotainer-fluid">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <!-- Logo -->
+                  <a class="navbar-brand" href="#">Nhà Books</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <!-- menu -->
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="C:\Users\Admin\OneDrive\Máy tính\Web\trang chính\trang_chu.html">Trang chủ</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="C:\Users\Admin\OneDrive\Máy tính\Web\trang chính\sach - 1.html">Sách</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="C:\Users\Admin\OneDrive\Máy tính\Web\trang chính\dang_ky.html">Sign up</a>
+                      </li>
+                        
+                      <li class="nav-item">
+                        <a class="nav-link" href="C:\Users\Admin\OneDrive\Máy tính\Web\trang chính\gioi_thieu.html">About us</a>
+                      </li>
+                    </ul>
+
+                    <!-- thanh tìm kiếm -->
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit" style="margin-right: 10px">Search</button>
+                    </form>
+                    
+                    <!-- nút giỏ hàng -->
+                    <a href="C:\Users\Admin\OneDrive\Máy tính\Web\trang chính\gio_hang.html">
+                    <button type="button" class="btn btn-outline-dark">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16" >
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                      </svg>
+                    </button>
+                    </a>
+                    
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </div>
+
+<!-- banner -->
+  <div class="banner">
+    <div class="container-fluid">
+      <div class="row-sm">
+        <div class="col"></div>
+      </div>   
+    </div>
+  </div>
+
+    
+<!-- main -->
+  <div class="main-md">
+      <div class="container">
+
+      <!-- Slogan -->
+      <div class="row">
+        <div class="col"><p class="slogan">Nơi Tất cả tri thức trong tầm tay bạn</p></div>
+      </div>
+
+      <!-- carousel  -->
+      <div class="row">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="C:\Users\Admin\OneDrive\Máy tính\Web\ảnh trang chủ\1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="C:\Users\Admin\OneDrive\Máy tính\Web\ảnh trang chủ\2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="C:\Users\Admin\OneDrive\Máy tính\Web\ảnh trang chủ\3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+      <!-- Quotes __1__ -->
+      <div class="row" style="margin-top: 80px">
+        <div class="col">
+          <div class="card mb-3" style="max-width: 600px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="C:\Users\Admin\OneDrive\Máy tính\Web\ảnh trang chủ\edison.jpg" class="img-fluid rounded-start"  >
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Thomas Edison</h5>
+                    <p class="card-text">
+                      "Đọc sách hay cũng giống như trò truyện với các bộ óc tuyệt vời nhất của những thế kỷ đã trôi qua."
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quotes __2__ -->
+        <div class="col">
+          <div class="card mb-3" style="max-width: 600px; ">
+            <div class="row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Charlie Munger</h5>
+                    <p class="card-text">
+                      "Việc đọc cực kì quan trọng đối với đời sống chúng ta. Nếu bạn biết cách đọc, cả thế giới sẽ mở ra cho bạn."
+                    </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="C:\Users\Admin\OneDrive\Máy tính\Web\ảnh trang chủ\charlie.jpg" class="img-fluid rounded-start"  >
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+
+      <div class="row-md">
+        <div class="col">
+          <p class="slogan">Với Chúng tôi</p>
+        </div>
+      </div>
+      <div class="row"  style="margin-bottom: 100px">
+        <div class="col"></div>
+          <p class="content">Chất lượng luôn đặt lên hàng đầu. Sự hài lòng của khách hàng là một mong muốn cháy bỏng mà chúng tôi luôn khao khát hướng tới. Cũng vì lẽ đó mà chất liệu giấy luôn được vận chuyển xuyên 5 châu, được làm từ da của Chúa tể Sơn lâm, từ gỗ của cây Bạch Dương nghìn năm cổ đại.
+          <br> Sứ mệnh của chúng tôi là đem đến sự hài lòng xuyên Cung Trăng cho khách hàng, như là người bạn gái luôn ân cần bên bạn. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+<footer class="text-center text-lg-start bg-light">
+                                            
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Kết nối cùng với chúng tôi:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Đồ Án
+          </h6>
+          <p>
+            Bài tập lớn môn Thiết kế Web HK2 (2021-2022)
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Nội Dung
+          </h6>
+          <p>
+            <a href="C:\Users\Admin\OneDrive\Máy tính\Web\trang chính\trang_chu.html" class="text-decoration-none text-reset">Trang Chủ</a>
+          </p>
+          <p>
+            <a href="C:\Users\Admin\OneDrive\Máy tính\Web\trang chính\sach - 1.html" class="text-decoration-none text-reset">Sách</a>
+          </p>
+          <p>
+            <a href="C:\Users\Admin\OneDrive\Máy tính\Web\trang chính\dang_ky.html" class="text-decoration-none text-reset">Sign Up</a>
+          </p>
+          <p>
+            <a href="C:\Users\Admin\OneDrive\Máy tính\Web\trang chính\gioi_thieu.html" class="text-decoration-none text-reset">About Us</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Members
+          </h6>
+          <p>
+            <a href="#" class="text-decoration-none text-reset">Nguyễn Viết Huy</a>
+          </p>
+          <p>
+            <a href="#" class="text-decoration-none text-reset">Lê Hoàng Nhất Sinh</a>
+          </p>
+          <p>
+            <a href="#" class="text-decoration-none text-reset">Phạm Thái Minh Nhật (đã nghỉ học)</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h6>
+          <p><i class="fas fa-home me-3"></i>Hóc Môn, Hồ Chí Minh, Việt Nam</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            v1469378h@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> 036 99 734 10</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    Trường Đại học Công nghiệp Thực Phẩm TP.HCM: 
+    <a class="text-reset fw-bold" href="https://hufi.edu.vn">hufi.edu.vn</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+</body>
+</html>
